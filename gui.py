@@ -5,7 +5,7 @@ class Gui(Tk):
         super().__init__()
 
         self.title("Currency Converter")
-        self.configure(bg="#eee", height=220, width =360, pady=10)
+        self.configure(bg="#fffbce, height=220, width =360, pady=10)
         
         self.__add_outer_frame()
         self.__add_heading_label()
